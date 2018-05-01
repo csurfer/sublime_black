@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "Black: Format",
+        "command": "black_format"
+    },
+    {
+        "caption": "Black: Diff",
+        "command": "black_diff"
+    }
+]
