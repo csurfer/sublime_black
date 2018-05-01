@@ -67,6 +67,6 @@ class black_diff(sublime_plugin.WindowCommand):
         execute(
             self.window,
             self.settings.get("encoding", None),
-            "black --diff",
+            "black --diff -l {0}".format(self.settings.get("line_length", 88)),
             self.file_name,
         )
