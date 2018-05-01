@@ -38,7 +38,7 @@ def execute(window, encoding, command, file_name):
         cmd.append(encoding)
 
     cmd.append(command)
-    cmd.append(file_name)
+    cmd.append('"{0}"'.format(file_name))
     window.run_command("exec", {"shell_cmd": " ".join(cmd)})
 
 
