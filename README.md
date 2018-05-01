@@ -35,7 +35,7 @@ Submitted to Package Control on May 1st 2018. Should be available soon!
 
 ### Bug Reports and Feature Requests
 
-Please use [issue tracker](https://github.com/csurfer/rake-nltk/issues) for reporting bugs or feature requests.
+Please use [issue tracker](https://github.com/csurfer/sublime_black/issues) for reporting bugs or feature requests.
 
 ### Development
 
