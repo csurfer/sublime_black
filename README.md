@@ -20,7 +20,13 @@ SublimeText3 package to format python code using black formatter.
 
 ### Directly from the repository
 
-Clone the git repo into your `Packages` folder and restart SublimeText3
+Clone the git repo into your `Packages` folder using
+
+```python
+git clone https://github.com/csurfer/sublime_black Black
+```
+
+and restart SublimeText3.
 
 ### Package Control
 
