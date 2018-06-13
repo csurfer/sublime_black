@@ -52,7 +52,10 @@ class black_format(sublime_plugin.WindowCommand):
         execute(
             self.window,
             self.settings.get("encoding", None),
-            "black -l {0}".format(self.settings.get("line_length", 88)),
+            "black -l {0}{1}".format(
+                self.settings.get("line_length", 88),
+                " -S" if self.settings.get("skip_string_normalization", False) else "",
+            ),
             self.file_name,
         )
 
@@ -67,6 +70,9 @@ class black_diff(sublime_plugin.WindowCommand):
         execute(
             self.window,
             self.settings.get("encoding", None),
-            "black --diff -l {0}".format(self.settings.get("line_length", 88)),
+            "black --diff -l {0}{1}".format(
+                self.settings.get("line_length", 88),
+                " -S" if self.settings.get("skip_string_normalization", False) else "",
+            ),
             self.file_name,
         )
