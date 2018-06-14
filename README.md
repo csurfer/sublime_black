@@ -34,8 +34,8 @@ Submitted to Package Control on May 1st 2018. Should be available soon!
 
 ## Settings
 
-* Line length setting for the package is set to 88 by default to be in sync with `black`. If you intend to change the same `Open command palete -> Goto Preferences: Black Settings - Default -> Change "line_length"` to the value you desire.
-* Locale setting for the package (required by click's http://click.pocoo.org/5/python3/#python-3-surrogate-handling) by default is set to `en_CA.UTF-8`. If you intend to change the same `Open command palete -> Goto Preferences: Black Settings - Default -> Change "encoding"` to the value you desire.
+* Line length setting for the package is set to 88 by default to be in sync with `black`. If you intend to change the same `Open command palete -> Goto Preferences: Black Settings - User -> Change "line_length"` to the value you desire.
+* Locale setting for the package (required by click's http://click.pocoo.org/5/python3/#python-3-surrogate-handling) by default is set to `en_CA.UTF-8`. If you intend to change the same `Open command palete -> Goto Preferences: Black Settings - User -> Change "encoding"` to the value you desire.
 
 ## Notes
 
