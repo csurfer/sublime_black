@@ -18,7 +18,7 @@
         "caption": "Preferences: Black Settings - Default",
         "command": "open_file", "args":
         {
-            "file": "${packages}/Black/black.sublime-settings"
+            "file": "${packages}/sublime_black/black.sublime-settings"
         }
     }
 ]
